@@ -26,6 +26,5 @@ test('Verify Check Box More Functionality', async ({ page }) => {
   const basePage = new BasePage(page);
   await basePage.clickSideBarMenu(basePage.CheckBoxBtn);
   await basePage.clickCheckBoxMore();
-  await basePage.CheckBoxDesktop.click();
-  await expect(basePage.CheckBoxResult).toContainText('desktop');
+  await basePage.clickCheckBoxD
 });

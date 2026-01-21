@@ -15,7 +15,6 @@ export class BasePage {
     CheckBoxHome: Locator;
     CheckBoxResult: Locator;
     CheckBoxMore: Locator;
-    CheckBoxDesktop: Locator;
 
     constructor(page: Page) {
         this.page = page;
@@ -32,7 +31,7 @@ export class BasePage {
         this.CheckBoxHome = page.locator(`label > span.rct-checkbox > svg`);
         this.CheckBoxResult = page.locator('#result');
         this.CheckBoxMore = page.locator(`span.rct-text > button.rct-collapse > svg`);
-        this.CheckBoxDesktop = page.locator(`label > span.rct-checkbox > svg`).nth(1);
+        this.CheckBoxDes
     }
 
     async clickSideBarMenu(option: Locator) {

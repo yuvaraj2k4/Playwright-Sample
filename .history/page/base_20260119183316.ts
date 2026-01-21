@@ -15,7 +15,6 @@ export class BasePage {
     CheckBoxHome: Locator;
     CheckBoxResult: Locator;
     CheckBoxMore: Locator;
-    CheckBoxDesktop: Locator;
 
     constructor(page: Page) {
         this.page = page;
