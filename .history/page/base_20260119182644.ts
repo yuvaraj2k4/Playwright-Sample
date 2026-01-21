@@ -14,8 +14,6 @@ export class BasePage {
     CheckBoxTitle: Locator;
     CheckBoxHome: Locator;
     CheckBoxResult: Locator;
-    CheckBoxMore: Locator;
-    CheckBoxDesktop: Locator;
 
     constructor(page: Page) {
         this.page = page;
@@ -31,8 +29,6 @@ export class BasePage {
         this.CheckBoxTitle = page.getByRole('heading', { name: 'Check Box', level: 1 });
         this.CheckBoxHome = page.locator(`label > span.rct-checkbox > svg`);
         this.CheckBoxResult = page.locator('#result');
-        this.CheckBoxMore = page.locator(`span.rct-text > button.rct-collapse > svg`);
-        this.CheckBoxDesktop = page.locator(`label > span.rct-checkbox > svg`).nth(1);
     }
 
     async clickSideBarMenu(option: Locator) {
@@ -47,12 +43,6 @@ export class BasePage {
         await this.submitBtn.click();
     }
 
-    async clickCheckBoxHome() {
-        await this.CheckBoxHome.click();
-    }
-
-    async clickCheckBoxMore() {
-        await this.CheckBoxMore.click();
-    }
+    
 
 }
