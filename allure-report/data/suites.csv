@@ -1,4 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","6527","Verify Text Box Functionality","chromium","2026-01-21","passed","2026-01-21","","base.spec.ts","",""
-"","5900","Verify Check Box Functionality","chromium","2026-01-21","passed","2026-01-21","","base.spec.ts","",""
-"","5074","Verify Check Box More Functionality","chromium","2026-01-21","passed","2026-01-21","","base.spec.ts","",""
